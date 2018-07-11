@@ -4,26 +4,32 @@
 <head>
   <meta charset="utf-8">
   <title>Fresh Air</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/logo.jpg" type="image/jpg">
 </head>
   
 <body>
-    <header>
+    <header name="header">
         <div class="container">
+          <a name="top"></a>
             <div class="hednav clearfix">
-                <a href="#"><img class="logo" src="img/logo.jpg" alt="Air"></a>
+                <a href="#top"><img class="logo" src="img/logo.jpg" alt="Air"></a>
+                <input id="mB" type="checkbox" hidden>
+                <label for="mB"class="nav_btn">
+                  <span></span>
+                </label> 
                     <nav>
                         <ul class="menu">
-                            <li class="menu__item"><a class="active" href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">Pages</a></li>
-                            <li class="menu__item"><a href="#">Elements</a></li>
-                            <li class="menu__item"><a href="#">Proguct</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
-                            <li class="menu__item"><a href="#">Work</a></li>
-                            <li class="menu__item"><a href="#">Start a Project</a></li> 
+                            <li class="menu__item"><a href="#top">Home</a></li>
+                            <li class="menu__item"><a href="#pages">Pages</a></li>
+                            <li class="menu__item"><a href="#elements">Elements</a></li>
+                            <li class="menu__item"><a href="#product">Proguct</a></li>
+                            <li class="menu__item"><a href="#top">Blog</a></li>
+                            <li class="menu__item"><a href="#work">Work</a></li>
+                            <li class="menu__item"><a href="#top">Start a Project</a></li> 
                         </ul>
                     </nav>
+                    
             </div>
             
             <div class="title">
@@ -34,6 +40,7 @@
   
     <section>
         <div class="container">
+          <a name="pages"></a>
             <div class="variant clearfix">
 
                 <div class="variant__item">
@@ -63,38 +70,39 @@
   
     <section class="phone">
         <div class="container clearfix">
-            <div class="phone__form">
-                <div class="phone__item clearfix">
-                    <div class="phone__image">
+          <a name="elements"></a>
+            <div class="phone-form">
+                <div class="phone-form__item clearfix">
+                    <div class="phone-form__image">
                         <img src="img/icon4.jpg" alt="variant">
                     </div>
-                    <div class="phone__section">
+                    <div class="phone-form__section">
                         <h3>Create a beautiful website.</h3>
                         <p>Wether you want to create a blog, eCommerce store, portfolio, or all of the above, you can express your idea with a website powered by our elegant yet intuitive platform.</p>
                     </div>
                 </div>
 
-                <div class="phone__item clearfix">
-                    <div class="phone__image">
+                <div class="phone-form__item clearfix">
+                    <div class="phone-form__image">
                       <img src="img/icon5.jpg" alt="variant">
                     </div>
-                    <div class="phone__section">
+                    <div class="phone-form__section">
                       <h3>Make your our business.</h3>
                       <p>From goods to services, ever business needs a space online to bring in customer.</p>
                     </div>
                 </div>
 
-                <div class="phone__item clearfix">
-                    <div class="phone__image">
+                <div class="phone-form__item clearfix">
+                    <div class="phone-form__image">
                         <img src="img/icon2.jpg" alt="variant">
                     </div>
-                    <div class="phone__section clearfix">
+                    <div class="phone-form__section clearfix">
                         <h3>Be artist</h3>
                         <p>An arstist should always have control over their creative process.</p>
                     </div>
                 </div>
 
-                <div class="phone__item">
+                <div class="phone-form__item">
                     <a href="#" >Get started</a>
                 </div>  
             </div>
@@ -112,6 +120,7 @@
     
     <section>
         <div class="container">
+          <a name="product"></a>
             <div class="variant stat clearfix">
 
                 <div class="variant__item">
@@ -138,6 +147,7 @@
     
     <section>
         <div class="container">
+          <a name="work"></a>
             <div class="price clearfix">
                 <div class="price__item">
                     <h4>Begginer</h4>
